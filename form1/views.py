@@ -94,8 +94,6 @@ def tab_one(request):
             check2 = request.POST.get('box2') == 'on'
             check3 = request.POST.get('box3') == 'on'
             # temp = request.POST.get('box1')
-            # print(temp)
-            # print(check1, check2, check3)
             # Create and save the new TabOne instance
             tab_one_instance = tab_one_model(
                 digit=digit, name=name, country=country, city=city,
